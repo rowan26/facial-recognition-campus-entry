@@ -85,26 +85,25 @@ python face_recognition_action.py
 ---
 
 ## 📁 Project Structure
+```
 facial-recognition-campus-entry/
-│
 ├── ai-source/
-│   ├── face_recognition_action.py       # Encode faces → save to DB
-│   ├── face_recognition_video_absent.py # Detect & mark absent students
-│   └── face_recognition_video_present.py# Live recognition pipeline
-│
+│   ├── face_recognition_action.py        # Encode faces → save to DB
+│   ├── face_recognition_video_absent.py  # Detect & mark absent students
+│   └── face_recognition_video_present.py # Live recognition pipeline
 ├── web-app/
-│   ├── app.py                           # Flask web server
-│   ├── templates/                       # HTML pages
+│   ├── app.py                            # Flask web server
+│   ├── templates/                        # HTML pages
 │   └── static/                          # CSS / JS assets
-│
 ├── docs/
 │   └── presentation.pdf                 # Full project documentation
-│
 └── README.md
+```
 
 ---
 
 ## 🧠 How It Works
+```
 Webcam Input
 │
 ▼
@@ -121,7 +120,7 @@ MongoDB Lookup → Student Match
 │
 ▼
 Attendance Updated ✅
-
+```
 ---
 
 ## 🖥️ Operating Modes
